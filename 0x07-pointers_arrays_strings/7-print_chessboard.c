@@ -1,9 +1,11 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * print_chessboard - Entry point
  * @a: array
  * Return: Always 0
  */
+int _putchar(char c);
 
 void print_chessboard(char (*a)[8])
 {
