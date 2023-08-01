@@ -6,6 +6,9 @@
  * Return: Always 0
  */
 int _putchar(char c);
+/**
+ * _putchar - function that prints
+ */
 
 void print_chessboard(char (*a)[8])
 {
